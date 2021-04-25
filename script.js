@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if(optionOneId == optionTwoId) {
         cards[optionOneId].setAttribute('src', 'images/blank.jpg')
         cards[optionTwoId].setAttribute('src', 'images/blank.jpg')
-        alert('You have clicked the same image!')
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
         alert('You found a match')
