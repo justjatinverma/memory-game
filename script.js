@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         cards[optionOneId].setAttribute('src', 'images/blank.jpg')
         cards[optionTwoId].setAttribute('src', 'images/blank.jpg')
-        alert('Sorry, try again')
+
       }
       cardsChosen = []
       cardsChosenId = []
